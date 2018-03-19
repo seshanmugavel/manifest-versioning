@@ -13,26 +13,26 @@
   <name>serviceOne</name>
   <build>
     <plugins>
-    <plugin>
-    <artifactId>maven-jar-plugin</artifactId>
-    <configuration>
-      <archive>
-        <manifest>
-          <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-        </manifest>
-        <manifestEntries>
-          <Specification-Title>Service One Utility Classes</Specification-Title>
-          <Specification-Version>${ServiceOneVersionPattern}</Specification-Version>
-          <Specification-Vendor>Deloitte</Specification-Vendor>
-          <Implementation-Title>Java.Util</Implementation-Title>
-          <Implementation-Version>${build.number}</Implementation-Version>
-          <Implementation-Vendor>Deloitte</Implementation-Vendor>
-          <Build-Number>${build.number}</Build-Number>
-          <Build-Time>${maven.build.timestamp}</Build-Time>
-        </manifestEntries>
-      </archive>
-    </configuration>
-    </plugin>
-    </plugins>
-  </build>
+		<plugin>
+			<artifactId>maven-jar-plugin</artifactId>
+			<configuration>
+			  <archive>
+				<manifest>
+				  <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+				</manifest>
+				<manifestEntries>
+				  <Specification-Title>Service One Utility Classes</Specification-Title>
+				  <Specification-Version>${ServiceOneVersionPattern}</Specification-Version>
+				  <Specification-Vendor>Deloitte</Specification-Vendor>
+				  <Implementation-Title>Java.Util</Implementation-Title>
+				  <Implementation-Version>${build.number}</Implementation-Version>
+				  <Implementation-Vendor>Deloitte</Implementation-Vendor>
+				  <Build-Number>${build.number}</Build-Number>
+				  <Build-Time>${maven.build.timestamp}</Build-Time>
+				</manifestEntries>
+			  </archive>
+			</configuration>
+		</plugin>
+    <plugins>
+</build>
 </project>
