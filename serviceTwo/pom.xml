@@ -12,6 +12,7 @@
   <version>${ServiceTwoVersionPattern}</version>
   <name>serviceTwo</name>
     <build>
+    <plugins>
     <plugin>
     <artifactId>maven-jar-plugin</artifactId>
     <configuration>
@@ -32,5 +33,6 @@
       </archive>
     </configuration>
     </plugin>
+    <plugins>
     </build>
 </project>
