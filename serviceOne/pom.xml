@@ -12,7 +12,7 @@
   <version>${ServiceOneVersionPattern}</version>
   <name>serviceOne</name>
   <build>
-    <plugins>
+     <plugins>
 		<plugin>
 			<artifactId>maven-jar-plugin</artifactId>
 			<configuration>
@@ -33,6 +33,6 @@
 			  </archive>
 			</configuration>
 		</plugin>
-    <plugins>
+    </plugins>
 </build>
 </project>
