@@ -54,10 +54,10 @@
   </build>
   <distributionManagement>
    <!-- Publish the versioned releases here -->
-   <!-- <repository>
+   <repository>
     <id>nexus-releases</id>
     <url>http://localhost:8082/nexus/content/repositories/releases</url>
-   </repository> -->
+   </repository>
 
    <!-- Publish the versioned snapshots here -->
    <snapshotRepository>
@@ -71,9 +71,9 @@
  <repository>
   <id>nexus-group</id>
   <url>http://localhost:8082/nexus/content/groups/public</url>
-  <!-- <releases>
+  <releases>
    <enabled>true</enabled>
-  </releases> -->
+  </releases>
   <snapshots>
    <enabled>true</enabled>
   </snapshots>
@@ -85,9 +85,9 @@
  <pluginRepository>
   <id>nexus-plugin</id>
   <url>http://localhost:8082/nexus/content/groups/public</url>
-  <!-- <releases>
+  <releases>
    <enabled>true</enabled>
-  </releases> -->
+  </releases>
   <snapshots>
    <enabled>true</enabled>
   </snapshots>
