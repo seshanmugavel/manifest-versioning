@@ -9,7 +9,7 @@
   </parent>
   <groupId>io.jitpack</groupId>
   <artifactId>serviceTwo</artifactId>
-  <version>${ServiceTwoVersionPattern}</version>
+  <version></version>
   <name>serviceTwo</name>
   <build>
     <plugins>
