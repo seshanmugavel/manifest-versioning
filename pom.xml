@@ -65,7 +65,9 @@
     
   </build>
   <scm>
-    <connection>scm:git:https://github.com/seshanmugavel/manifest-versioning.git</connection>
+	<url>https://github.com/seshanmugavel/manifest-versioning</url>
+	<connection>scm:git:git://github.com/seshanmugavel/manifest-versioning.git</connection>
+	<developerConnection>scm:git:git@github.com:seshanmugavel/manifest-versioning.git</developerConnection>
   </scm>
   <distributionManagement>
    <!-- Publish the versioned releases here -->
