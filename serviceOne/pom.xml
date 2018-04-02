@@ -4,11 +4,11 @@
   <parent>
     <groupId>io.jitpack</groupId>
     <artifactId>example-root</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
   </parent>
   <groupId>io.jitpack</groupId>
   <artifactId>serviceOne</artifactId>
-  <version>${serviceOneVersionPattern}</version>
+  <version>0.4.0</version>
   <name>serviceOne</name>
   <build>
      <plugins>
