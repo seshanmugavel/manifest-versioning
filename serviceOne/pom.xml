@@ -8,7 +8,7 @@
   </parent>
   <groupId>io.jitpack</groupId>
   <artifactId>serviceOne</artifactId>
-  <version>0.2.1-SNAPSHOT</version>
+  <version>${serviceOneVersionPattern}</version>
   <name>serviceOne</name>
   <build>
      <plugins>
