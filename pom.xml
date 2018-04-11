@@ -4,7 +4,7 @@
   
   <groupId>io.jitpack</groupId>
   <artifactId>example-root</artifactId>
-  <version>0.0.8</version>
+  <version>0.0.9-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>example-root</name>
   <properties>
@@ -68,7 +68,7 @@
 	<url>https://github.com/seshanmugavel/manifest-versioning</url>
 	<connection>scm:git:git://github.com/seshanmugavel/manifest-versioning.git</connection>
 	<developerConnection>scm:git:git@github.com:seshanmugavel/manifest-versioning.git</developerConnection>
-	<tag>MyRelease-project-0.7.2</tag>
+	<tag>MyRelease-project-0.7.1</tag>
   </scm>
   <distributionManagement>
    <!-- Publish the versioned releases here -->
