@@ -4,7 +4,7 @@
   <parent>
     <groupId>io.jitpack</groupId>
     <artifactId>example-root</artifactId>
-    <version>0.0.8</version>
+    <version>0.0.8-SNAPSHOT</version>
   </parent>
   <groupId>io.jitpack</groupId>
   <artifactId>serviceOne</artifactId>
