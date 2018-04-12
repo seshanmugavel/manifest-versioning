@@ -61,6 +61,19 @@
 		</dependency>
 	</dependencies>
       </plugin>
+      <plugin>
+        <groupId>se.jiderhamn</groupId>
+        <artifactId>promote-maven-plugin</artifactId>
+        <version>2.0.1</version>
+        <!-- Automatically execute promote:make-promotable after each snapshot build -->
+        <executions>
+          <execution>
+            <goals>
+              <goal>make-promotable</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
     
   </build>
